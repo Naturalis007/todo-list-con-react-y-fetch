@@ -1,12 +1,56 @@
+body{
+    margin-top: 50px;
+    font-family: Garamond;
+}
+fa-times:before{
+    margin-right: 20px;
+}
 
-/* 
+.container{
+    width: 30%;
+    background: #3ac0ae;
+}
+div.task-name{
+    border: 3px solid #fff;
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: black;
+}
+input{
+    border: none;
+    width: 100%;
+    background-color: rgb(48, 135, 175);
+    opacity:0.2;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+div.left{
+    color: #fff;
+    text-shadow: black;
+}
 
-*/
+
+
+  input[type="text"] {
+    width: 70%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  button.delete-button{
+    width: 20%;
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: rgb(133, 188, 176);
+    color: white;
+    border: none;
+  }
